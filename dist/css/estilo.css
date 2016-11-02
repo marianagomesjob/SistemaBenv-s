@@ -1,0 +1,137 @@
+﻿/*CSS-GERAL*/
+
+/*Cor Geral*/
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Verdana,sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #8B9772;
+	font-size:11px;
+	
+}
+#logo{
+	height:33px;
+	margin-top:-10px;
+	margin-right: 5px;
+	margin-left: 22px;
+	width:63px;
+}
+
+/*Cor de Fundo*/
+.content-wrapper, .right-side {
+    background-color: #f4f4f4;
+}
+/*Login*/
+.login-page, .register-page {
+    background: #f4f4f4;
+}
+/*Fontes*/
+h1 {
+    margin: 0;
+    color: #ac2925;
+	font-family:franklin gothic book font,sans-serif;
+}
+h2 {
+    margin: 0;
+    color: #ac2925;
+	font-family:franklin gothic book font,sans-serif;
+}
+h3{
+    margin: 0;
+    color: #ac2925;
+	font-family:franklin gothic book font,sans-serif;
+}
+h4{
+    margin: 0;
+    color: #ac2925;
+	font-family:franklin gothic book font,sans-serif;
+}
+
+/*BOX*/
+.box.box-default {
+    border-top-color: #8B9772;
+}
+/*Menu*/
+.content-header>h1 {
+    margin: 0;
+    font-size: 24px;
+}
+/*Cor antiga 8B9772*/
+.skin-blue .main-header .navbar {
+	background-color:#eee !important;
+	
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #8B9772 !important;
+}
+
+.dropdown-toggle{
+    color: #791d1d;
+}
+.dropdown-menu>li>a {
+    color: #8b9772;
+}
+/*Rodapé*/
+.layout-top-nav.layout-top-nav .right-side, .layout-top-nav .main-footer {
+    margin-left: 0;
+    background-color: #eeeeee;
+    border: none;
+}
+/*Botoes-default*/
+.btn-default {
+    background-color: #f4f4f4;
+    color: #8B9772;
+    border-color: #8B9772;
+}
+.btn-default:hover, .btn-default:active, .btn-default.hover {
+    background-color: #8B9772;
+}
+.btn-danger {
+    background-color: #AD3436;
+    border-color: #AD3436;
+}
+/*Paginação*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #8b9772;
+    border-color: #8b9772;
+}
+/*Tab*/
+.nav-tabs-custom>.nav-tabs>li.active>a, .nav-tabs-custom>.nav-tabs>li.active:hover>a {
+    background-color: #fff;
+    color: #a94442;
+}
+.nav-tabs-custom>.nav-tabs>li>a {
+    color: #8B9772;
+    border-radius: 0;
+}
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #a94442;
+}
+
+
+
+/*Formulario*/
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #8B9772;
+	color: #8b9772;
+	border-radius:4px;
+}
+
+
+input[type=text]:hover{ 
+    background: #ffffff; 
+	border:1px solid #a94442;
+	
+}
+.empresa{
+	color: #8b9772;
+}
